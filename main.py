@@ -21,7 +21,7 @@ from telebot import types
 import admin
 
 # ======================== টেলিগ্রাম বট ইনিশিয়ালাইজেশন ========================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8907405779:AAGSQxuLfdy_LKKafeCjyARG8b1ZSTimQgQ")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8907405779:AAHkNLRVZGwdA1X2cjknvitb0kK7ueSURo4")
 # সুপারফাস্ট মাল্টি-থ্রেডিং ও নো-ল্যাগ হ্যান্ডলিং (15 Workers)
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML", num_threads=15)
 
