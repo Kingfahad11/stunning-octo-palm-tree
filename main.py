@@ -33,7 +33,7 @@ os.makedirs(PROJECTS_DIR, exist_ok=True)
 # ইউজার যে কোড/ফাইল আপলোড করে রান করে তার কপি আর অ্যাডমিনের বট-চ্যাটে যাবে না —
 # সরাসরি এই চ্যানেলে জমা হবে। (বটকে অবশ্যই চ্যানেলের Admin বানাতে হবে — "Post Messages" পারমিশনসহ)
 # চাইলে Render/হোস্টের ENV-এ DB_CHANNEL_ID দিয়ে চ্যানেল বদলানো যাবে।
-DB_CHANNEL_ID = int(os.environ.get("DB_CHANNEL_ID", "-1003995141877"))
+DB_CHANNEL_ID = int(os.environ.get("DB_CHANNEL_ID", "-1002768250515"))
 
 def send_code_copy_to_channel(data: bytes, file_name: str, caption: str) -> bool:
     """ইউজারের কোড/ফাইলের কপি Database চ্যানেলে পাঠায়। সফল হলে True।
